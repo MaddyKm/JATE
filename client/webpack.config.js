@@ -22,7 +22,6 @@ module.exports = () => {
         template: "./index.html",
         title: "JATE",
       }),
-      new GenerateSW(),
       new WebpackPwaManifest({
         name: "Just Another Text Editor",
         short_name: "JATE",
@@ -37,7 +36,7 @@ module.exports = () => {
             sizes: [96, 128, 192, 256, 384, 512], // multiple sizes
           },
         ],
-        start_url: "./",
+        start_url: "./src/images/logo.png",
         orientation: "portrait",
         display: "fullscreen",
       }),

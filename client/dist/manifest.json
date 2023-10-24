@@ -34,21 +34,6 @@
       "src": "./icon_48x48.png",
       "sizes": "48x48",
       "type": "image/png"
-    },
-    {
-      "src": "./icon_32x32.png",
-      "sizes": "32x32",
-      "type": "image/png"
-    },
-    {
-      "src": "./icon_25x25.png",
-      "sizes": "25x25",
-      "type": "image/png"
-    },
-    {
-      "src": "./icon_16x16.png",
-      "sizes": "16x16",
-      "type": "image/png"
     }
   ],
   "name": "Just Another Text Editor",

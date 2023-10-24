@@ -29,10 +29,11 @@ module.exports = () => {
         publicPath: "./",
         fingerprints: false,
         background_color: "#ffffff",
+        theme_color: "#ffffff",
         crossorigin: "use-credentials", //can be null, use-credentials or anonymous
         icons: [
           {
-            src: path.resolve("./favicon.ico"),
+            src: path.resolve("./src/images/logo.png"),
             sizes: [16, 25, 32, 48, 96, 128, 192, 256, 384, 512], // multiple sizes
           },
         ],

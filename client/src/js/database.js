@@ -25,8 +25,9 @@ export const putDb = async (content) => {
 
 // TODO: Add logic for a method that gets all the content from the database
 export const getDb = async () => {
-  const txtEditorDB = await openDB("jate", "readonly");
-  const storeVar = trasnVar.objectStore("jate");
+  const txtEditorDB = await openDB("jate", 1);
+  const transVar = txtEditorDB.transaction("jate", "readonly");
+  const storeVar = transVar.objectStore("jate");
   const request = storeVar.get(1);
   const result = await request;
   result
